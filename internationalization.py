@@ -130,10 +130,10 @@ def game_locales(func):
             for player in player.game.players:
                 us = UserSetting.get(id=player.user.id)
 
-                if us and us.lang != 'en':
+                if us and us.lang != 'id':
                     loc = us.lang
                 else:
-                    loc = 'en_US'
+                    loc = 'id_ID'
 
                 if loc in locales:
                     continue
