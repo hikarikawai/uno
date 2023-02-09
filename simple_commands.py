@@ -61,7 +61,7 @@ def help_handler(update: Update, context: CallbackContext):
       "If you enjoy this bot, "
       "<a href=\"https://telegram.me/storebot?start=mau_mau_bot\">"
       "rate me</a>, join the "
-      "<a href=\"https://telegram.me/unobotupdates\">update channel</a>"
+      "<a href=\"https://t.me/rexaprivateroom\">update channel</a>"
       " and buy an UNO card game.")
 
     send_async(context.bot, update.message.chat_id, text=help_text,
