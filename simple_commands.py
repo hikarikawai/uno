@@ -45,7 +45,7 @@ def help_handler(update: Update, context: CallbackContext):
       "/kick : Pilih pemain untuk ditendang\n"
       "/enable_translations : Terjemahkan teks yang relevan ke semua\n"
       "/disable_translations - Gunakan bahasa Inggris untuk teks tersebut\n\n"
-      "👨‍💻 About : "
+      "👨‍💻 About : \n"
       "<a href=\"https://t.me/rexaprivateroom\">👥 update group</a>\n"
       "<a href=\"https://t.me/tirexgugel\">🚀 update channel</a>\n"
       "<a href=\"https://t.me/JustRex\">👨‍💻 Owner</a>\n\n"
