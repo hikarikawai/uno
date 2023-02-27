@@ -20,7 +20,7 @@
 
 import json
 
-with open("app.json","r") as f:
+with open(config.json","r") as f:
     config = json.loads(f.read())
 
 TOKEN = 2125839096:AAEquwngQspHnA9emK8G_CC6Uh-JszqgYpU
